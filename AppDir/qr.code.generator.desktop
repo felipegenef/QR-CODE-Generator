@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-AppImage-Arch=x86_64
+X-AppImage-Version=baa7efb
+X-AppImage-Name=QR Code Generator
+Name=QR Code Generator
+Exec=qr_code_generator
+Icon=logo
+Type=Application
+Terminal=false
+Categories=Utility;
+Comment=

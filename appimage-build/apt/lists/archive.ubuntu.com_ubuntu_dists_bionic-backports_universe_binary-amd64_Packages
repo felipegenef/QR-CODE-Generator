@@ -1,0 +1,1549 @@
+Package: bird2
+Architecture: amd64
+Version: 2.0.7-2~ubuntu18.04.1
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ondřej Surý <ondrej@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1043
+Pre-Depends: init-system-helpers (>= 1.56~)
+Depends: adduser, lsb-base, ucf, libc6 (>= 2.27), libreadline7 (>= 6.0), libssh-gcrypt-4 (>= 0.6.1), libtinfo5 (>= 6)
+Suggests: bird2-doc
+Conflicts: bird
+Filename: pool/universe/b/bird2/bird2_2.0.7-2~ubuntu18.04.1_amd64.deb
+Size: 369308
+MD5sum: 7b866c361a2d6205b21e96de22752a44
+SHA1: 40fc45be478e1220d5c460252e26f9602e8e94da
+SHA256: 145fac7683f7d1ad9763108afed821d64c8d4a0a163bdcec31dea1c21c804dcc
+SHA512: 59d0279b1c726984317a4f1110474f358597132fb3b038042b503c623f783b0246fd86b1e3b1d2eb31f615f95d83eef305023e393d6f092b4b75b495456eb323
+Homepage: https://bird.network.cz/
+Description: Internet Routing Daemon
+Description-md5: 874644189b6bd30d36505beb812c9640
+
+Package: bird2-doc
+Architecture: all
+Version: 2.0.7-2~ubuntu18.04.1
+Priority: optional
+Section: universe/doc
+Source: bird2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ondřej Surý <ondrej@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1426
+Filename: pool/universe/b/bird2/bird2-doc_2.0.7-2~ubuntu18.04.1_all.deb
+Size: 999724
+MD5sum: 920830413d21fff0fc6808f51b2dc237
+SHA1: bb25f1b20086d61271f2a8dd86f687244af838e3
+SHA256: 50b08d946751d790e3b8c857308dd5e5cd9792c1808115e4c10b76074031e718
+SHA512: 81bb7ae703a599461c1788b7426e8b8794dfd6f467e29028e8a9588fbf5a0d922457b3e71dd808ef7c9f3ce2c49550b809d1bb6f5df61ff39c5cb3ad40ae268a
+Homepage: https://bird.network.cz/
+Description: Internet Routing Daemon - documentation
+Description-md5: 1ced61660e9937b21315d53a620aa063
+
+Package: cockpit
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 62
+Depends: cockpit-bridge (>= 215-1~ubuntu18.04.1), cockpit-ws (>= 215-1~ubuntu18.04.1), cockpit-system (>= 215-1~ubuntu18.04.1)
+Recommends: cockpit-storaged (>= 215-1~ubuntu18.04.1), cockpit-networkmanager (>= 215-1~ubuntu18.04.1), cockpit-dashboard (>= 215-1~ubuntu18.04.1), cockpit-packagekit (>= 215-1~ubuntu18.04.1)
+Suggests: cockpit-doc (>= 215-1~ubuntu18.04.1), cockpit-pcp (>= 215-1~ubuntu18.04.1), cockpit-machines (>= 215-1~ubuntu18.04.1), xdg-utils
+Filename: pool/universe/c/cockpit/cockpit_215-1~ubuntu18.04.1_all.deb
+Size: 17988
+MD5sum: 5a64e843ff87e509ecea6c12b768e2a9
+SHA1: 117a8db27c3086bcf9aa40285fb03a8f1334f9e4
+SHA256: 7e098801cf372fb1a973d1d33abb9480891a50e2f716da54dc7f3390994fc05f
+SHA512: 48ee3836dbe5639c360be8a3ac84ff3df3bdfca78827537fc0990385debd0b5679a9aa017950e35f7551b9fbbf0a10c4d18b4854bdd2bc9810b446c035b14eeb
+Homepage: https://cockpit-project.org/
+Description: Web Console for Linux servers
+Description-md5: 24b0aa0c07779dcba10e15ca9244d9e9
+
+Package: cockpit-bridge
+Architecture: amd64
+Version: 215-1~ubuntu18.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1046
+Provides: cockpit-ssh
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.39.4), libjson-glib-1.0-0 (>= 1.2.0), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.104), libssh-4 (>= 0.8.0~20170825.94fa1e38), libsystemd0 (>= 235), glib-networking
+Breaks: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Replaces: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Filename: pool/universe/c/cockpit/cockpit-bridge_215-1~ubuntu18.04.1_amd64.deb
+Size: 558592
+MD5sum: 18cde90251177aaaaeef960a9410cffb
+SHA1: f23a4dfb545be363a552acaa2293cfaadd1acabf
+SHA256: 4b670efe0c4b9129dfd46d6501d0500bb988ca6f0f60a44809a422393ac93e7b
+SHA512: 70548ae22bbfecf978ca42997ef7bfb30d82d72b55d094eb6d6fb59b9d01f2a6c7f01dcf683ced1825f3b0036068556c63a4cb788fb48baf2607e3b548e58711
+Homepage: https://cockpit-project.org/
+Description: Cockpit bridge server-side component
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+
+Package: cockpit-dashboard
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 227
+Depends: cockpit-bridge (>= 170.x), cockpit-ws (>= 215-1~ubuntu18.04.1), cockpit-ws (<< 215-1~ubuntu18.04.1.1~)
+Replaces: cockpit-system (<< 128), cockpit-ws (<< 128)
+Filename: pool/universe/c/cockpit/cockpit-dashboard_215-1~ubuntu18.04.1_all.deb
+Size: 194972
+MD5sum: ddb83f86265d81ba2b57e33182b8db0f
+SHA1: 03bd9f481b384bb155cdb525acb787ba5864e0ca
+SHA256: feb4975225271809afc16f2c47c3dcf16e0629dfb04cbfc33db07190d85a557e
+SHA512: 711810931044c5349abeb66d3a183b0f0868f115aaa9be7d50eeeef03d977cd420fcbdfdaf0e17d1a941982b6d1035f1b6ccbf8913e01456821717d23a5e8b6d
+Homepage: https://cockpit-project.org/
+Description: Cockpit remote servers and dashboard
+Description-md5: 1b1adf0b10d4d95da33a41c0d668cfd1
+
+Package: cockpit-doc
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 657
+Filename: pool/universe/c/cockpit/cockpit-doc_215-1~ubuntu18.04.1_all.deb
+Size: 250316
+MD5sum: 09d526beee0fc4690f386ed9340e89fb
+SHA1: a7ab22abc4bb3e3fdffc2e6838b3c46d6b426d88
+SHA256: b9c471bde9d89f002f1d1a3700e8e3f9038058679c9ab793577de361b0932469
+SHA512: 34ce1262961289c3d2006f23862b4f2b7640e01fdc82b24756e782f75ba0cacadddf291d8fcd3c35c508798c34708dbc831d79ae383755240493fb1452ac0fb7
+Homepage: https://cockpit-project.org/
+Description: Cockpit deployment and developer guide
+Description-md5: 917dc8f7798407683627da6ebb139a47
+
+Package: cockpit-docker
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 418
+Depends: python3, cockpit-bridge (>= 186)
+Recommends: docker.io (>= 1.3.0) | docker-engine (>= 1.3.0) | docker-ce (>= 1.3.0)
+Filename: pool/universe/c/cockpit/cockpit-docker_215-1~ubuntu18.04.1_all.deb
+Size: 388408
+MD5sum: cd67cebdf69dcc76aea44a5f359a57b6
+SHA1: aba74b0b3db122503ca42261eddbc53f4b81d5fd
+SHA256: 3ee2da52a9b1cda68bf7c8f677045cd8cf6afa2b5f97f5d414ecff0304a49580
+SHA512: 4ccb0989e4e68d70f8b4fe6172bb934b8dd2833833512d008a7c48246a8f60613acc55e3f8cf45f831a8bc7e72fe1c860db0cf4461d6ab3e758624995e1e0031
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for Docker containers
+Description-md5: c02e70ed63df0326f1a1b12deeb24144
+
+Package: cockpit-machines
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 732
+Depends: libvirt-daemon-system, libvirt-clients | libvirt-bin
+Recommends: virtinst, libvirt-dbus, python3-gi, gir1.2-libosinfo-1.0, qemu-block-extra
+Filename: pool/universe/c/cockpit/cockpit-machines_215-1~ubuntu18.04.1_all.deb
+Size: 713264
+MD5sum: a8e7e6dcd16d5e7c055b6c830abb3d76
+SHA1: aed7c6741ecd3aae92cbf31e6ddb33e0e97ffd0c
+SHA256: ec19d845b57f6ffd1e10c3bb620a0267b42d7a8d4db70a06e1dd81c30826eca6
+SHA512: a63fdc44a9acedf97555b47ac0d944b3adedd8de298e7059314da002a60b0c1f0786ef1d47f610b5bb9ace62e899437e5f44a240afeb538210b20deb6a0ecfe5
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for virtual machines
+Description-md5: a902f6feddb06225624681441d26bc7d
+
+Package: cockpit-networkmanager
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 413
+Depends: cockpit-bridge (>= 186), network-manager (>= 1.6)
+Filename: pool/universe/c/cockpit/cockpit-networkmanager_215-1~ubuntu18.04.1_all.deb
+Size: 384984
+MD5sum: ab874b228778c6e0e107dee5c635ed74
+SHA1: e0da80770dc5b57889f29437d98cca594ce12747
+SHA256: 9fe60936671458d159701e224cd91a731187d44a008e27b2caa88f27e611788b
+SHA512: 7e6a05251c92fd89e14ca30c4f388acb431ca1767fa28779264e7ed965431c65530de8b8c7d5f827fdb700c1938e89e1d509ed57f237037cbe0a769bc92bf129
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for networking
+Description-md5: 3ec1a60ecda81a24c8267c56cf7a9a3f
+
+Package: cockpit-packagekit
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 417
+Depends: cockpit-bridge (>= 186), packagekit
+Filename: pool/universe/c/cockpit/cockpit-packagekit_215-1~ubuntu18.04.1_all.deb
+Size: 380128
+MD5sum: 2ed255f8182a74f589d3bd46431ed5b8
+SHA1: fa56e9c0f640105e326598d7a7608ae553c7b73e
+SHA256: e350bc3ffe26d50190dff7d826708b92ed928fd07c08958667cb6f11bf0ed57b
+SHA512: a817c6390b1ef3676705928bae2d283f1708fe0c055375fcab19ebe65285321914cf00337936c714a5e39e68ea658ea64ab5cb62eb551e34541bc2df0689b5b5
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for packages
+Description-md5: 01ecbad973ab31bb91eb03019d4352aa
+
+Package: cockpit-pcp
+Architecture: amd64
+Version: 215-1~ubuntu18.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 217
+Depends: libc6 (>= 2.11), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.16.0), libpcp3, libsystemd0 (>= 235), cockpit-bridge (>= 186), pcp
+Filename: pool/universe/c/cockpit/cockpit-pcp_215-1~ubuntu18.04.1_amd64.deb
+Size: 68940
+MD5sum: f0a2b5eba69b7cf3a6fd8b88526672f4
+SHA1: ca7c681cb9b2c3e597d5fa311eebfd713581af36
+SHA256: 07d96c72bc23e13b2a793718b47256873faf204706a82a53cf788e06a37e102f
+SHA512: 3defd6ab055afbee3ecf6878151a05d628b93549cc96541750356f47bc86b286879aaeb54b5c074b9005c62ee280fa6a48f939c92891380af026b8ae1fd2bd6e
+Homepage: https://cockpit-project.org/
+Description: Cockpit PCP integration
+Description-md5: 2bcebebdc8b56e2cd8c2ba8755912a8f
+
+Package: cockpit-storaged
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 596
+Depends: udisks2 (>= 2.7), libblockdev-mdraid2, cockpit-bridge (>= 186), python3, python3-dbus
+Filename: pool/universe/c/cockpit/cockpit-storaged_215-1~ubuntu18.04.1_all.deb
+Size: 570824
+MD5sum: 9750c38330baadb987f17a5de1deca29
+SHA1: 2361c209a06ee89ee1a7752808732d0f7fe43579
+SHA256: a3ae1e94eb3a55bc55373c5a7a90e62b46ed9f9e9663d55e461fd456c4799ca7
+SHA512: d30acc7bb56c2b819a7b1b2eac26b63db9927267bfbbbbefd013d0cf340a884d40cf512825a9bd662ba284c9cc632564c59d00f498a999228a92bfe1c90996f3
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for storage
+Description-md5: f6107ca2b49a2b554a0abcd9b73419c5
+
+Package: cockpit-system
+Architecture: all
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1993
+Provides: cockpit-shell, cockpit-systemd, cockpit-tuned, cockpit-users
+Depends: cockpit-bridge (>= 186), libpwquality-tools, openssl
+Recommends: policykit-1
+Conflicts: cockpit-shell
+Replaces: cockpit-shell
+Filename: pool/universe/c/cockpit/cockpit-system_215-1~ubuntu18.04.1_all.deb
+Size: 1888432
+MD5sum: dffe0bb649296e2c6cd3114b2da44077
+SHA1: 346150f72af0e53716cf8fdc60f5bb02c50a99e2
+SHA256: b3f70011379dd66d913a5273b3a324498c2338442ec242e31a3d97b5012db22a
+SHA512: e8f575c3ee0eb0314c0d50631ebd516af435c7575e1a1bf49ee8e8ed942842375ce8f75718fa3e0a6aa4dba6d1110a186cb931bb67de837080f49fc08e040306
+Homepage: https://cockpit-project.org/
+Description: Cockpit admin interface for a system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+
+Package: cockpit-tests
+Architecture: amd64
+Version: 215-1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 451
+Provides: cockpit-test-assets
+Depends: libc6 (>= 2.4), libpam0g (>= 0.99.7.1), cockpit-system (>= 215-1~ubuntu18.04.1), openssh-client
+Conflicts: cockpit-test-assets
+Replaces: cockpit-test-assets
+Filename: pool/universe/c/cockpit/cockpit-tests_215-1~ubuntu18.04.1_amd64.deb
+Size: 390608
+MD5sum: 645bdd5897039ee69176f4a880c95e1d
+SHA1: 9266302ce3a67780959e000cbef94e89b0f94a85
+SHA256: f507e2f781f731c89f9f464d872dfcb79adcb94b7357fc93650cca385bc6c667
+SHA512: 83a09056a0ba266ac882b59af0e1bc663d196e5795d579a277c2756d72727dd0ca8a79497e1dfa5ac158c77e660ac63db793386f67709f8a2d0e83f591eea63a
+Homepage: https://cockpit-project.org/
+Description: Tests for Cockpit
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+
+Package: cockpit-ws
+Architecture: amd64
+Version: 215-1~ubuntu18.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2316
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.39.4), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), libjson-glib-1.0-0 (>= 0.16.0), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libsystemd0 (>= 237), glib-networking, adduser, openssl, systemd (>= 235)
+Suggests: sssd-dbus
+Filename: pool/universe/c/cockpit/cockpit-ws_215-1~ubuntu18.04.1_amd64.deb
+Size: 1298304
+MD5sum: 7364fbead51628193913c1e8389fc66e
+SHA1: 7427b0fe83d0699fbf1327444b96a9400d476a6b
+SHA256: 863079d63fcbd90edee9347a0af0dece035daecd8f382646ed38d9f4d21caf51
+SHA512: dded27b8ef8b7d02db0bc494401cee6aaf0280ebd696afe51dd6a6764b417af5e3548837c94e6e348a1e7a88749ab001a3c10025342d74a5ee7fda2b2a2e73d8
+Homepage: https://cockpit-project.org/
+Description: Cockpit Web Service
+Description-md5: f492a869e15f8c92004032f384bce124
+
+Package: dh-systemd
+Architecture: all
+Version: 12.1.1ubuntu1~ubuntu18.04.1
+Multi-Arch: foreign
+Priority: extra
+Section: universe/admin
+Source: debhelper
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 129
+Depends: debhelper (>= 9.20160709)
+Filename: pool/universe/d/debhelper/dh-systemd_12.1.1ubuntu1~ubuntu18.04.1_all.deb
+Size: 2676
+MD5sum: 6461fac46ac3da43e04dfc04dbb9cdc6
+SHA1: 16ea762189a6a929293ec5f6bda984f49ca24b12
+SHA256: a6e03bde9e90db385ad99f371af3387d56abcd7d52de4e4ea48483a33e970f13
+SHA512: 6268406031d1b8ee17f77cf9f1fdb162e81a99958ec6c2147a748ce366f6071c9cd5cae25d6e8ec430f61910e06a93086c2bd66be1a4a8a9ff00553dff5fa6a6
+Description: debhelper add-on to handle systemd unit files - transitional package
+Description-md5: 67a68071a0cbbaa9df2bcd81ec5a29b1
+
+Package: dwz
+Architecture: amd64
+Version: 0.13-5~bpo18.04.1
+Multi-Arch: foreign
+Priority: extra
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 447
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131)
+Filename: pool/universe/d/dwz/dwz_0.13-5~bpo18.04.1_amd64.deb
+Size: 136572
+MD5sum: f195747b44b7ee6a5775fd72a0e65cad
+SHA1: f2816af05f8cb81af36a266a0415cc736dc1762e
+SHA256: 62299d2bc04a825f48788a2e4253856dab4d0fe65accbc5e168808283f5a9c3c
+SHA512: e4ec78615afff9be4c07859f8135010d29afc4ea9b22d0ac57d843c3ce64ac6e4f5278874db4ef4babde3ef9e988eef0b1fa6c8185aa7df7d52aa526e54cc869
+Homepage: https://www.sourceware.org/dwz/
+Description: DWARF compression tool
+Description-md5: b5447a660ee9ed08d9c1cc3453445479
+
+Package: elixir
+Architecture: amd64
+Version: 1.9.1.dfsg-1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: elixir-lang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Evgeny Golyshev <eugulixes@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5923
+Depends: erlang-base:any (>= 1:20) | erlang-base-hipe:any (>= 1:20)
+Filename: pool/universe/e/elixir-lang/elixir_1.9.1.dfsg-1~ubuntu18.04.1_amd64.deb
+Size: 3515660
+MD5sum: 43d7aab6cee34544b19a9d241dfe9c12
+SHA1: 39d569c24e34e4962d5ccd7fe94c8f2c306e63d1
+SHA256: b845653bf24b9838ae74a811226b6e170be77a6109f9242382c92bc7c87473b4
+SHA512: 11029c2e074e9227896b016eca2ab43bf2a9f3603df90a1810bd7b1b90cc271d69167e471fac484f9bcf2ff39a25e7c2c345ea9712f8ae72405fb2bec49fc6c6
+Homepage: http://elixir-lang.org/
+Description: functional meta-programming aware language
+Description-md5: 572fe6b3095250d25aa22e376bc0e13e
+
+Package: erlang
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 53
+Depends: erlang-base:any | erlang-base-hipe:any, erlang-dev:any, erlang-asn1:any, erlang-common-test:any, erlang-crypto:any, erlang-debugger:any, erlang-dialyzer:any, erlang-diameter:any, erlang-edoc:any, erlang-eldap:any, erlang-erl-docgen:any, erlang-et:any, erlang-eunit:any, erlang-ftp:any, erlang-inets:any, erlang-megaco:any, erlang-mnesia:any, erlang-observer:any, erlang-odbc:any, erlang-os-mon:any, erlang-parsetools:any, erlang-public-key:any, erlang-reltool:any, erlang-runtime-tools:any, erlang-snmp:any, erlang-ssh:any, erlang-ssl:any, erlang-syntax-tools:any, erlang-tftp:any, erlang-tools:any, erlang-wx:any, erlang-xmerl:any
+Recommends: erlang-jinterface, erlang-mode, erlang-src, erlang-examples
+Suggests: erlang-manpages, erlang-doc
+Filename: pool/universe/e/erlang/erlang_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 13024
+MD5sum: 5fe06fbc9af5c5f756d03328f46164c2
+SHA1: a777791ecf98fe1a994b42ca064ad9f40555eeb0
+SHA256: 81b4cb07c928799dfb7c3ee0bdca126a091d16e2265431ed03cd2c4eb519d665
+SHA512: 036c2ac472e684e3d9f04cb5207b6b424325bd8a419f1b5d2aeb4ec151643ce9ac4469b8974c96c060df08ba7888414fbae598039b34847d83e2fc3c06ad20bd
+Homepage: http://www.erlang.org/
+Description: Concurrent, real-time, distributed functional language
+Description-md5: 444ffdeb0f4a95a7e36f20d18ac794cb
+
+Package: erlang-base-hipe
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16577
+Provides: erlang-abi-17.0
+Depends: procps, adduser, libc6 (>= 2.15), libsystemd0, libtinfo5 (>= 6), zlib1g (>= 1:1.2.8)
+Recommends: libsctp1 (>= 1.0.17+dfsg), erlang-crypto (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-syntax-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Suggests: erlang-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang, erlang-manpages, erlang-doc
+Conflicts: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base, erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-doc-html (<< 1:13.b.4), erlang-manpages (<= 1:11.b.1-2)
+Breaks: rabbitmq-server (<< 3.7.7)
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base, erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-doc-html (<< 1:13.b.4), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-typer (<< 1:20.0+dfsg), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-base-hipe_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 9751288
+MD5sum: 7f899553174cb6365f3b75a800c1d65e
+SHA1: 08b2230984122de939086e6beaf889ec7e257fb7
+SHA256: 0d6a9856beade96b5dfdf41a8466f0fe429d97679327fa5035a7aba9082a5749
+SHA512: f2433717521662ab0976a7ed9d22d8e92dc8bdd4753cad93a48a40857e8399fc028bb058a0d8cd2cc634e942af83aea95e94320cb2d7f09f97c7d420b6372c69
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP HiPE enabled virtual machine and base applications
+Description-md5: f284d6d86968208e4f53d14fca4279b8
+
+Package: erlang-common-test
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1534
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-crypto (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-debugger (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-ftp (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-inets (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-observer (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-runtime-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-snmp (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-ssh (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-syntax-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-xmerl (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), libjs-jquery, libjs-jquery-tablesorter, libc6 (>= 2.14)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-common-test_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 1038748
+MD5sum: a7b67ce5c3b5cf777852b3b572f99876
+SHA1: f880dd8f43983b9dc0af9db9d6de76da1ae46395
+SHA256: 53eccac4c3824be7db1765cee703c7a8d1e673779175a3869832979b59f55638
+SHA512: 764abf99ddd4ae125d26f59a1473f6f47a2ec18b44651802e684794e1fe4c014f5ebe64814eba96937fe0c4d4704888e7d6c76f2932a484f91543e643a1631f2
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP application for automated testing
+Description-md5: 7b279934204d2fda3ee05f2ba5e002bb
+
+Package: erlang-debugger
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 559
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-wx (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-debugger_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 377788
+MD5sum: 0dd647c720f9bd6a8769136048cd5ccf
+SHA1: c4cf7a1b444f837500dc97de7e2aee3225065ea2
+SHA256: ee35542673f648020017db1302db876a858adcf80908b52fc53c86df1ef532d6
+SHA512: 0cdab072d9da7ecf789861618de23cc986ab5542ef3957f32c5e3ba0cb23a926c8479d1c524e64c049b3c505bad84e5e39f5b8a9875ea4e9f2423b4f4f40adc5
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP application for debugging and testing
+Description-md5: f2a130c9024aae5b814aecc511de1716
+
+Package: erlang-dialyzer
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1023
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-syntax-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), libc6 (>= 2.14)
+Suggests: erlang-wx (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-dialyzer_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 674136
+MD5sum: 79656ce89e15df1556506499bcaf86ad
+SHA1: 4af8f3bd3219b6b0409117e92d615c20d3cb8d62
+SHA256: d0783a84c9e4ac0e7cd2da1557b1ac57e6e198e4f47546428330f3815eb60f0e
+SHA512: 49499acb14d287a55ac4c841db337581d946366f73ab1a20836f0a306d81c51fc3ca14c7dde39c39ceb6c0920528c899426678e2af6198e9d8db9b1ab6c24f4b
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP discrepancy analyzer application
+Description-md5: 64f3bbfb833c0a9582717bebe4d36557
+
+Package: erlang-et
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 240
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-runtime-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-wx (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-et_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 144916
+MD5sum: 720a3b9e6b55a21ea4c3540a84b5abe8
+SHA1: e6e77328b21ae6d0f4a81788ded17f9f365ef323
+SHA256: 7053b49d52b7cb089680c299df5743049942a08bab1903b58f0fa06e2739ca95
+SHA512: 020c2da88c04f6fecd6aba4835e41bad2eeb95d756f87fd40dced5a4e81cc76350a40ac09d5bfcf642277af92cff796d8b7c1e44165ed918ac23a8e8c96677ee
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP event tracer application
+Description-md5: 642600ae4ee7f6069393fa0af8f50037
+
+Package: erlang-jinterface
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 163
+Depends: default-jre-headless | java2-runtime-headless | java1-runtime-headless | java2-runtime | java1-runtime
+Suggests: erlang, erlang-manpages, erlang-doc
+Filename: pool/universe/e/erlang/erlang-jinterface_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 106000
+MD5sum: 52dc02cb8d8495c03a2585ef8a6fcf9c
+SHA1: b89018aa04010a5c2ee57af636efe415b55ec877
+SHA256: 5e05dde47934a0c3492efe2dc3572544c1a564df1d828d91cf57418a15d6456b
+SHA512: 9663001741770cbe99b40969eb70b930e0b3f2eea35717bfe55e6d1f7b193e23c6e7e7ec7d14674da5c18a8bd89c928ff4dd83e25c2359ef5fc3335ab0ef382b
+Homepage: http://www.erlang.org/
+Description: Java communication tool to Erlang
+Description-md5: 6e3651f89f83062d26177557bb00ae3d
+
+Package: erlang-manpages
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1839
+Suggests: erlang, erlang-doc
+Filename: pool/universe/e/erlang/erlang-manpages_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 1598876
+MD5sum: fc828076411853d171ca4cb247251d79
+SHA1: 1465f40c53901bad152b62806074cbfe62af37f8
+SHA256: 346c38ba4a236a5d64ab3f58fca4549d7e825f9b81c7c0dfc1800b1d56ad9119
+SHA512: 7913d58b95e59658649717b4fc75c90f4fc6b58b447c90403e157d7a336be2bc767c35da18d655623e424af9abbf88b7cc39713ef8a190cbf18ebf98ba8985d5
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP manual pages
+Description-md5: cdc7cc48bad4a582e48a14f54e037734
+
+Package: erlang-mode
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 531
+Depends: emacsen-common (>= 1.4.14)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang-base:any (<< 1:12.b.1-dfsg-2), erlang-base-hipe:any (<< 1:12.b.1-dfsg-2)
+Filename: pool/universe/e/erlang/erlang-mode_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 87816
+MD5sum: 30d2d55ba505e579814fb2626f034f04
+SHA1: 3f64e4161cda09f06866df0233b632f6346bf5e4
+SHA256: b4d3a6e42d8b95fe31b801368a8361cdf18e32065153f29231c65b7f5dd90103
+SHA512: 70d8b4ec8fa216e778c6e74cccfa426a12e9633a610268a631e05abab74f1268cc5e19b02bc2f54bbd393560230cd24d4f5406bdeecaff0cbcb3fbb4ba0a61b0
+Homepage: http://www.erlang.org/
+Description: Erlang major editing mode for Emacs
+Description-md5: 458834bc6eb6df394adfd308669076f9
+
+Package: erlang-observer
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1163
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-et (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-runtime-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-wx (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-observer_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 848960
+MD5sum: 26a5148d72472b3cc63b2190edf9c95e
+SHA1: e2089166a65e4fc290cb2b2763466b2d4b4ea860
+SHA256: 76722d118d1a9581ba8212391cc91b179cbacee7deeeb081dec6820ecc26d795
+SHA512: caaee9c07ca3cbe7e94200bce95b2fef0f10bca184297cd5df5b0be913e9b63c4ac2c22a8be1aa487edae27d85628e501449003214b2311c061f89f736cfddb3
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP application for investigating distributed systems
+Description-md5: 562a137fe6357e7dc7f07faca76776a1
+
+Package: erlang-reltool
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 472
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-tools (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-wx (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-reltool_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 326048
+MD5sum: d453ebb1a02b00f79bd68652624aef3a
+SHA1: d32f6490efc009e4fd3fd7f8d471792ac14abb04
+SHA256: 331f7a4a03625c86318db92089e442914378f2210b3b0cd6dc9684234c04c6cc
+SHA512: 53eef6f8f13b383c18e5bf8f9a0914c603a12561fc06de889dd1820eba8b31dc191fc878e16c6a79ace3d7c4aac985e8ded009fcf6fbf5bc50526ed3a03e5e51
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP release management tool
+Description-md5: c21e40c68ee2fb8795e6e8d59da14957
+
+Package: erlang-src
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 45866
+Depends: erlang-base:any (>= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe:any (>= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1.0) | erlang-base-hipe:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1.0)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-erl-docgen:any (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-src_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 5314592
+MD5sum: f3b1daef83f3e004f11b0bbb87623884
+SHA1: 0ed66d933f95eaeee86ff0f8109efa250a35d61b
+SHA256: b2dda64b87bfa5be2fb23ead349311e8fd6ed1d082aa85a5da97b08a75ff4ffd
+SHA512: b07ccbaa3856bc031f5c10da05ba134b03f37bf019ad5fd741eb05bb8baf81eaa77ad876469aa22847a50eaf0abbdae7dcc54596de6f85e19e7033a42c980a80
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP applications sources
+Description-md5: 6a6a52b3019a4fbd9d35a8cde25c0477
+
+Package: erlang-wx
+Architecture: amd64
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6457
+Depends: erlang-base (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1) | erlang-base-hipe (= 1:22.0.7+dfsg-1build1~ubuntu18.04.1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglu1-mesa | libglu1, libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.4+dfsg), libwxgtk3.0-0v5 (>= 3.0.4+dfsg)
+Suggests: erlang, erlang-manpages, erlang-doc
+Replaces: erlang (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-base-hipe (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-dev (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-doc (>> 1:22.0.7+dfsg-999), erlang-doc (<< 1:22.0.7+dfsg), erlang-examples (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-manpages (<= 1:11.b.1-2), erlang-mode (<< 1:12.b.1-dfsg-2), erlang-nox (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-src (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1), erlang-x11 (<< 1:22.0.7+dfsg-1build1~ubuntu18.04.1)
+Filename: pool/universe/e/erlang/erlang-wx_22.0.7+dfsg-1build1~ubuntu18.04.1_amd64.deb
+Size: 2801604
+MD5sum: c289722248418a0693a5cce532f67f87
+SHA1: ea8883be10cd5fafcd66aab293569fe32f1d4a16
+SHA256: 7194bcf9386947e0742c7ee7587a49b3b88f2a2ea92302f61037122ec63acbf4
+SHA512: 653de4d0a4c5d3252e465b30dd02f1e39c0cb990386548e96bc0d2c8c3d8fdeee514e16bddcba0f51da0cd87ee473710c50c35d9d408ff6e6e328c1da62457f8
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP bindings to wxWidgets
+Description-md5: 33737e962cd597aa89c0246f6ed16263
+
+Package: erlang-x11
+Architecture: all
+Version: 1:22.0.7+dfsg-1build1~ubuntu18.04.1
+Priority: optional
+Section: universe/interpreters
+Source: erlang
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 53
+Depends: erlang-base:any | erlang-base-hipe:any, erlang-nox, erlang-common-test:any, erlang-debugger:any, erlang-dialyzer:any, erlang-et:any, erlang-megaco:any, erlang-observer:any, erlang-reltool:any, erlang-wx:any
+Suggests: erlang, erlang-manpages, erlang-doc
+Filename: pool/universe/e/erlang/erlang-x11_22.0.7+dfsg-1build1~ubuntu18.04.1_all.deb
+Size: 5620
+MD5sum: 2db7eb9c73640fc02969c4d099a1a9f3
+SHA1: 07b8180df10f3feea8e861ae7028832f24bc7948
+SHA256: 766f665145a50edc1e49a10dacfa1251ae8915a8aa2c3ae357a7ae5ac0e30e9b
+SHA512: f3b5fc135090b2ac4993a45a09129e306757eeca6562370e3892841b804df6ff1c1945732d92bdee6aa5b475e1a3e3a89e2ef9fa188c8dfb92c994285af002c1
+Homepage: http://www.erlang.org/
+Description: Erlang/OTP applications that require X Window System
+Description-md5: 243a50ebbcb77b74596e0d11eccda5c3
+
+Package: ibus-avro
+Architecture: all
+Version: 1.1-3~ubuntu18.04.1
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7815
+Depends: dconf-gsettings-backend | gsettings-backend, gjs, ibus, ibus-gtk, ibus-gtk3, ibus-clutter
+Conflicts: avro, ibus-avro-trusty
+Filename: pool/universe/i/ibus-avro/ibus-avro_1.1-3~ubuntu18.04.1_all.deb
+Size: 515224
+MD5sum: 7fcc191747317fcb86890c8a2628f1a6
+SHA1: 9fde594231f1da59dbfac3a497e8318cb4481dcd
+SHA256: ec38bc3a0755de8de3f2ca6e1ef5bb3c5e55b53ed5a431fb555fd7c4e0fb609f
+SHA512: c0405265694e0d1fe9c5276c7b389dbd7173c120542049d771da28fa595767d837f51c5773deceab38e3ff937f88c882f314d33d82587c0b7d4ca50dddbd6337
+Homepage: https://github.com/sarim/ibus-avro
+Description: IBus engine for Avro Phonetic
+Description-md5: a4e45fc7e2170175e61ab6eef554298f
+
+Package: ibus-typing-booster
+Architecture: all
+Version: 2.9.3-1~ubuntu18.04.1
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 71994
+Depends: dconf-gsettings-backend | gsettings-backend, python3:any (>= 3.3.2-2~), ibus, ibus-gtk, ibus-gtk3, libm17n-0, m17n-db, python3-dbus, python3-enchant, python3-xdg
+Filename: pool/universe/i/ibus-typing-booster/ibus-typing-booster_2.9.3-1~ubuntu18.04.1_all.deb
+Size: 5681684
+MD5sum: 6c1b59c721bd0dacbac6fce6ddb370e6
+SHA1: f02e5a28ed2e5220d6066afecd24b21512c50e9e
+SHA256: 917e9d33776b1b25036d0364e5dd66c7c889e8608802084255449d85945b1625
+SHA512: f39cb680aca2f33e7a501fb78615537b2274a64a8118fe21224e0df4e2046dcbc1d7e83ae2bca8bf246b9107dfe35ff4049b351a5ba1ce69944e25890305a576
+Homepage: https://mike-fabian.github.io/ibus-typing-booster/
+Description: Completion input method to speedup typing
+Description-md5: 8df8727a23407ff87c1e854faf927e9d
+
+Package: libreoffice
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/editors
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 248
+Depends: libreoffice-base, libreoffice-calc, libreoffice-core (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1), libreoffice-draw, libreoffice-impress, libreoffice-math, libreoffice-report-builder-bin, libreoffice-writer, python3-uno (>= 4.4.0~beta2)
+Recommends: fonts-crosextra-caladea, fonts-crosextra-carlito, fonts-dejavu, fonts-liberation, fonts-liberation2, fonts-linuxlibertine, fonts-noto-core, fonts-noto-extra, fonts-noto-mono, fonts-noto-ui-core, fonts-sil-gentium-basic, libreoffice-gnome | libreoffice-plasma, libreoffice-nlpsolver, libreoffice-report-builder, libreoffice-script-provider-bsh, libreoffice-script-provider-js, libreoffice-script-provider-python, libreoffice-sdbc-mysql, libreoffice-sdbc-postgresql, libreoffice-wiki-publisher, libreoffice-java-common (>= 1:7.3.7~)
+Suggests: cups-bsd, firefox | firefox-esr | thunderbird, ghostscript, gnupg, gpa, hunspell-dictionary, hyphen-hyphenation-patterns, imagemagick | graphicsmagick-imagemagick-compat, libgl1, libreoffice-grammarcheck, libreoffice-help (= 7.3), libreoffice-l10n (= 7.3), libreoffice-librelogo, libxrender1, myspell-dictionary, mythes-thesaurus, openclipart-libreoffice, pstoedit, unixodbc, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, default-jre (>= 2:1.8) | java8-runtime | jre, libsane1, libofficebean-java
+Conflicts: libreoffice-dev (<= 1:5.0.3~rc1-2), libreoffice-dev-doc (<= 1:5.0.3~rc1-2)
+Filename: pool/universe/libr/libreoffice/libreoffice_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 12588
+MD5sum: 4d4f798340f5d2994d9eddbf95781199
+SHA1: 231187df615ecc784a802a4e27a79da70c77a5a9
+SHA256: b51a6366a05b385070b251942c9d7ad333d50b20d36ad738950836f1384956a0
+SHA512: 1922149c5976713aa57a10cc0ba484aa21bbcd33dc4c1001097d21edef6a84b331d6bab9456e28b4ffb60e9f261f3d1494d7a5a9b9b2ebc1dda7e9e7743ad61f
+Homepage: http://www.libreoffice.org
+Description: office productivity suite (metapackage)
+Description-md5: 9614e13c8592ae9a0c81c629137ef53e
+
+Package: libreoffice-base
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6405
+Depends: libreoffice-base-core (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1), libreoffice-base-drivers (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1), libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1), ucf (>= 0.8), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-writer, libreoffice-java-common (>= 1:7.3.7~), default-jre (>= 2:1.8) | java8-runtime | jre
+Suggests: libreoffice-report-builder, python3-uno, unixodbc
+Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
+Replaces: libreoffice-common (<< 1:6.4.2~rc1~)
+Filename: pool/universe/libr/libreoffice/libreoffice-base_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 1447316
+MD5sum: b8710dcd8e33144e8c695162663f1f97
+SHA1: b4a5e1ab6113661cee7cb4a16f2e7069714e7f8d
+SHA256: f1e1f75741b6f409d4225a9841a0f88af44cfdb3b552665c9e00b9e485cac8f5
+SHA512: f45aaecae9dce232779f4a41a40e0592afccd56c5ddd6d796dc79180b0ed3dce03d819bf1ed21e35f78495ce394b0a460c056b342f837eeed94d7190f22571dd
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- database
+Task: kubuntu-desktop, kubuntu-full
+Description-md5: 5529fff5c628ca6b70284749063daea4
+Supported: 3y
+
+Package: libreoffice-base-drivers
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2619
+Depends: libreoffice-core-nogui | libreoffice-core, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: libreoffice-sdbc-hsqldb, libreoffice-sdbc-firebird
+Suggests: libjtds-java, libreoffice-sdbc-mysql | libmyodbc | libmariadb-java, libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java, libsqliteodbc | tdsodbc | odbc-mdbtools
+Breaks: libreoffice-base (<< 1:4.3.0-3)
+Replaces: libreoffice-base (<< 1:4.3.0-3), libreoffice-core (<< 1:6.2.0~beta1~)
+Filename: pool/universe/libr/libreoffice/libreoffice-base-drivers_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 512112
+MD5sum: f2948bcbdd5ada620a202abe601f610a
+SHA1: 7214a3e496517364e9170ae50210dad92eac9bea
+SHA256: 76144056b3f5fb785d4caf20a7e6731771c58ff5ce921ff065294d91c4d7d35a
+SHA512: 0791a815fca2a10dd4a91f21bc7e46314372dfdf458319a6c0b60d468ffb8e79de0e2b7a70b8fa63294716c860f6466f55b854ee5bcba052ce8e7d28bed4f7dc
+Homepage: http://www.libreoffice.org
+Description: Database connectivity drivers for LibreOffice
+Task: kubuntu-desktop, kubuntu-full
+Description-md5: 95a600bf1d7e583b757fe5b8ea210d10
+Supported: 3y
+
+Package: libreoffice-evolution
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 585
+Depends: libreoffice-base, libreoffice-common (>= 1:7.0.0~alpha~), libreoffice-core (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1), libebook-1.2-19, ucf (>= 0.8), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.38.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 5.1.0~alpha), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Recommends: evolution
+Filename: pool/universe/libr/libreoffice/libreoffice-evolution_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 84904
+MD5sum: 850299ee2ab4d3d086c1094790ea4c02
+SHA1: 1c5a4ac5e11025b6ee17dd9eddf11ad467f82f32
+SHA256: fa79c0ea24e280bcabae9af7d86eff51dae972d2274b817fb3f334a4ba80ca29
+SHA512: cf39deeaa80887901430d3bb81c549158acc06dcd0a54859fa1de336d952e6d1f956dc1cc9dc25e9c2558274f9e27a9d42b85f831ee5238cce50871252569b35
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Evolution addressbook support
+Description-md5: 7d9a6b62e74d5a806f263ecd0d4bed18
+Supported: 3y
+
+Package: libreoffice-gtk
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Depends: libreoffice-gtk2
+Filename: pool/universe/libr/libreoffice/libreoffice-gtk_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 6220
+MD5sum: c1a1b9fd4aae2cd29d3f6dd23087516d
+SHA1: f1260f85fd4d4b4def3399bdd07c9647b1d79daa
+SHA256: 7a9801ee3331bfa5a48d2f85d47899faf36f538cded41a071d20b8480bab8192
+SHA512: 32958c4c88b23fa91528cb70f13cc59e1cf2bd95a9a6d94dd0d36d107bab36dc6773b60bcd09c1e00da0d01975b98a6a0f3917c21d5627089eb8189981afb2cf
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice gtk2 backend
+Task: ubuntustudio-desktop
+Description-md5: 0b76cbf84e5ccbf23ddec807f4dcefbb
+
+Package: libreoffice-gtk2
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/gnome
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Filename: pool/universe/libr/libreoffice/libreoffice-gtk2_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 7492
+MD5sum: 06bf28cf54a96ab126436cb5cf9f69ed
+SHA1: d4d6dd3a67e007c13fdd569fda023e6547332d64
+SHA256: 9cdf940a4b0bca4682b9455ff982fe2ad46d49b22f3d2dd0dc8d5b7a82704f16
+SHA512: 0230948373cd1c1b4a3003066df177009eeed78bc28c3a86cf108625617d7533d1634e5edbfd670993bf9d8cc466fd8b8376e18bf9efe01af303b4726967c0a7
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice gtk2 backend
+Task: ubuntustudio-desktop
+Description-md5: 16f95bd9c26683a4b4582a981ca1a3a2
+
+Package: libreoffice-kde
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/kde
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Depends: libreoffice-kde5
+Filename: pool/universe/libr/libreoffice/libreoffice-kde_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 6236
+MD5sum: 0a5aa3d9730e30209b6ea33945cb2eee
+SHA1: f0acfe4895b894996959aa7bf8ec112f249f3e94
+SHA256: 9764b28c2f1cb3377cf4d3df0f9aa570c332dae3e892097229a4118139cde0d0
+SHA512: 11f7df1d38ac94597c0d879fc04e8245b676b2c9272bfb62417c43ad3e1900419b7d4356d3180c8b6587e58daf0ae5a0c295db07f2ce74cdb1c72811ccd6b21b
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice KDE integration
+Task: kubuntu-desktop, kubuntu-full, lubuntu-qt-desktop
+Description-md5: 6cefe70d36c253e7351b5cddd7f0664e
+Supported: 3y
+
+Package: libreoffice-kde4
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/kde
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Filename: pool/universe/libr/libreoffice/libreoffice-kde4_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 7500
+MD5sum: c3ff30f282c9c23d0e2acbf6d81b6588
+SHA1: 44954b81f6360d4f206ecca112d6b855d26a66b7
+SHA256: 59da2344a40c23567c9d03f9ee8d6314128bccb2febc22fc5471ad9662f9fd1b
+SHA512: b0be41084dab0fef1c34e5da903e0fc584d6a806b86fae521efa55ad12234a026eccffbf2a7d828ad29c75ef1fdce3d280353d0ea58fafbb0287e6e28fcc3f55
+Homepage: http://www.libreoffice.org
+Description: transitional package for LibreOffice KDE integration
+Task: kubuntu-desktop, kubuntu-full, lubuntu-qt-desktop
+Description-md5: e4e138701097a40ac3baad803dbce01d
+Supported: 3y
+
+Package: libreoffice-librelogo
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 990
+Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core, libreoffice-script-provider-python, libreoffice-writer, ucf (>= 0.8)
+Filename: pool/universe/libr/libreoffice/libreoffice-librelogo_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 157272
+MD5sum: 4951e00d98e3544e3e0c47f7ae721be1
+SHA1: 8ac1b3b9cb37b0b680025bcb9c5e1da8c78ebf08
+SHA256: 87cd5013fbc141e6f9ac8cb7506ad114a3397acf1ed1476a0cb235a2ad8cb614
+SHA512: 7acbd9f89bfe00261acce9df2cc14ed6e9a0027705a962ebcb8d92240c6717f2d4ef329976a3ca467132ece481d6a14d767e29816c8f2a881452bbab62eb1741
+Homepage: http://librelogo.org
+Description: Logo-like programming language for LibreOffice
+Description-md5: cdaef056eb365a457e28772fa2fd9de6
+
+Package: libreoffice-mysql-connector
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 246
+Depends: libreoffice-sdbc-mysql
+Filename: pool/universe/libr/libreoffice/libreoffice-mysql-connector_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 7836
+MD5sum: e07f083a1ea8b3d8a7388d2d6fe78068
+SHA1: 866d7a7afecc9b8f2b0a83bac0e88ca75c0b1742
+SHA256: 56aeb480f2f6344214260b6bc74b05a405548243cf5f06c4471dcf04f9f132f1
+SHA512: afb1b6fd9b7fba601e928310869cfa569077cc445fe69a307ea013ee00c604f202af4c0daa4d0f24bccccc41bf7397a993f7563f1c0941c6cba6ed596a5e3e9a
+Homepage: http://www.libreoffice.org
+Description: transitional package for MariaDB/MySQL Connector extension for LibreOffice
+Description-md5: f67e8b039d42be412b79ebf1381a0f85
+
+Package: libreoffice-report-builder
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2995
+Provides: libreoffice-reportdesigner
+Depends: liblibreoffice-java, libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core | libreoffice-core-nogui, libreoffice-report-builder-bin (>= 1:7.3.7), libreoffice-java-common, ucf (>= 0.8)
+Breaks: libreoffice-common (<< 1:6.4.2~rc1~)
+Replaces: libreoffice-common (<< 1:6.4.2~r~~)
+Enhances: libreoffice-base
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 2120212
+MD5sum: e93b040880d81b8b675583d95b77459e
+SHA1: fa956e353ae6d7863528092d95d71e7edf315319
+SHA256: 0758cb0c49becd3d716cf3ff3022456de41afedbe233acd38f066dc6573b6dfe
+SHA512: 38b4b994c4d8689842b7c6de0725ae224d553b167e978e588c306e2e14c0b32da80647f5bedb4ca2e05fe90685c95b8119635da520b74d1f08eaf88ad79f0b34
+Homepage: http://www.libreoffice.org
+Description: LibreOffice component for building database reports
+Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
+
+Package: libreoffice-report-builder-bin
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3331
+Depends: libreoffice-base, libreoffice-core, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Filename: pool/universe/libr/libreoffice/libreoffice-report-builder-bin_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 789620
+MD5sum: d4f585bc56a493f400a77e9c285d1075
+SHA1: 1d0000f72b909d1eb7cb29941c35950ad0b1c4f3
+SHA256: 980ade162dffb631a09e2a088f16f01597778cb20b25572a91d2ec936c2eed65
+SHA512: d582514af82c6c5c6ab8c1b3a4b87d1d73c6d371568df2493b42f2e1daa60c57354c46b549f3aba733ffa10d62857dbbb4165eb52b620abc8025875f828a150c
+Homepage: http://www.libreoffice.org
+Description: LibreOffice component for building database reports -- libraries
+Description-md5: 4de9416ad29a7951be39b95f83055e84
+
+Package: libreoffice-script-provider-bsh
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/java
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 354
+Depends: liblibreoffice-java, libreoffice-common, libreoffice-core-nogui | libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java8-runtime | jre, libbsh-java
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-bsh_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 41420
+MD5sum: bb36f8777efeca48dd8b409537c77ba3
+SHA1: 01cef7c779bba4d90bc310dd6741535e7a250c2d
+SHA256: c194db25d319ffab393e8911173d5a18a5d1a885d069189f5c053ea9f0d7bb3a
+SHA512: 5e83ba7bf4931af02dc79ce75e049c4bf291906086e15365a160be81b1ab40ece7c9e6d4527206e58cf72e7dd95972ef85feff71d4f73fe463f30c19fd16b98c
+Homepage: http://www.libreoffice.org
+Description: BeanShell script support provider for LibreOffice scripting framework
+Description-md5: 720bef09745ce9eb4902772fb5c437d8
+
+Package: libreoffice-script-provider-js
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/web
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 937
+Depends: liblibreoffice-java, libreoffice-common, libreoffice-core-nogui | libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java8-runtime | jre
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-js_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 649556
+MD5sum: 667a07dc520f634f95fd3f7c1ee012ce
+SHA1: 81d042206d5024ff86a62d83ff5b03ccc276b324
+SHA256: 108fdd0e889a1eb59ec33317098b9ad861024e6309df2a1af3e4bd2fab4d7c75
+SHA512: 8e7fc1bc462c41edd775235d5884a90f1c907f5da801d9dbc99f783f2f7641b14f02fa38a738a0517bec2559fd01f5324fe296efa7d334b3d98eb8c3257e1d04
+Homepage: http://www.libreoffice.org
+Description: JavaScript script support provider for LibreOffice scripting framework
+Description-md5: 41b18315e9be2aaa24a28415b907118e
+
+Package: libreoffice-script-provider-python
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/python
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 296
+Depends: libreoffice-common, libreoffice-core-nogui | libreoffice-core, python3-uno (>= 4.4.0~beta2)
+Filename: pool/universe/libr/libreoffice/libreoffice-script-provider-python_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 16280
+MD5sum: c6803a9f0e570a2634f2a485a806ebd6
+SHA1: 22764773f6296d8fb7d77e662b50e30a021017fb
+SHA256: a118b1373d01345a9c56c20e97cfa6262957a9f6ab2b03ba84eb75a4c71da029
+SHA512: eb5cee6bf90218b4b0c35e3a72a14a1cef024583005bd3d94ef493fb65a9bb70ab2b9e71caa50378dc742c7b39d2aa27334606eed2347e17958c353d24866906
+Homepage: http://www.libreoffice.org
+Description: Python script support provider for LibreOffice scripting framework
+Description-md5: 019117f2dc708fc6c1179714b81e2076
+
+Package: libreoffice-sdbc-firebird
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 777
+Depends: libreoffice-core-nogui | libreoffice-core, firebird3.0-server-core, libc6 (>= 2.14), libfbclient2 (>= 3.0.2~), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-firebird_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 139628
+MD5sum: 5d501e5f2681daa93383624bdf608d79
+SHA1: 0fea960e2b44eee5523340ca2bdbaa5bb5ee6e24
+SHA256: 34a181c61d552dc2b88be4c7e3e98175b1936b26a9e329357de0b9c8422ac23b
+SHA512: c71c18e1fc44757dd6fabdb3e485899ea6c6e03a2745d442dcb4717a41ca4125b252be0d8afa9383cda3a9535f434b5c4d9d2d33b52954aeabd0e9119180f3dc
+Homepage: http://www.libreoffice.org
+Description: Firebird SDBC driver for LibreOffice
+Description-md5: 4ad372e2554b0f42b39c7e1325d5e6d0
+
+Package: libreoffice-sdbc-hsqldb
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/database
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 617
+Depends: libreoffice-core-nogui | libreoffice-core, libreoffice-java-common (>= 1:7.3.7~), default-jre (>= 2:1.8) | java8-runtime | jre, libhsqldb1.8.0-java, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-hsqldb_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 112304
+MD5sum: 6a96317063e623ea49e2642103acaf50
+SHA1: a45aefa932e1d0769614259f83e0fb1d2dd443d6
+SHA256: f9ddf93615840fbacff26c5d331f2ee7ae0d74c2601bc4488ab5d81bf753a2e1
+SHA512: d7a33979c3de17ca9115989bf58a33cb2a8fdc7785f782df8fa9529800709ff789376bd2585f7376be77e70c7f75a3f7d7981d5b0886ce5ce43ed939b0c87434
+Homepage: http://www.libreoffice.org
+Description: HSQLDB SDBC driver for LibreOffice
+Task: kubuntu-desktop, kubuntu-full
+Description-md5: 54ed9715a25b1dae2ad2d3a9b6838a65
+Supported: 3y
+
+Package: libreoffice-sdbc-postgresql
+Architecture: amd64
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1130
+Depends: libreoffice-common (>= 1:7.0.0~alpha), libreoffice-core, ucf (>= 0.8), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libpq5 (>= 9.0~), libstdc++6 (>= 5), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 5.1.0~alpha), libuno-salhelpergcc3-3 (>= 1.4.0), uno-libs-private
+Suggests: postgresql (>= 8.4)
+Enhances: libreoffice-base-drivers
+Filename: pool/universe/libr/libreoffice/libreoffice-sdbc-postgresql_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_amd64.deb
+Size: 223412
+MD5sum: cce419bbe15bf5b58bfba7be1b756e85
+SHA1: 902bdd3e3e67b977993b876a1d80b98caeca3365
+SHA256: 5cb1edbfb680136a19fb3e89fd9ed757b0aeeec80d17e18b0967a034e7b973e1
+SHA512: f21d271f6274dd03f022b3e7583f36c4986960594bb443a9b75e5089f9bb1e4289f24cec18c4d353221516942d442a39f08bec6a89254c97fc75c091ca2d10ba
+Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
+Description: PostgreSQL SDBC driver for LibreOffice
+Description-md5: 06f71158aa78dbe7201679601bd1279b
+
+Package: libreoffice-style-elementary
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/x11
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9797
+Provides: libreoffice-style
+Depends: libreoffice-style-colibre
+Recommends: libreoffice-common
+Enhances: libreoffice-core
+Filename: pool/universe/libr/libreoffice/libreoffice-style-elementary_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 8022024
+MD5sum: c3b3d843bbe7a253c28fdb9e850d66e7
+SHA1: f3fccdc4589ce31795d6a8d468e828553413bfc9
+SHA256: fc8c8db16a489b1c93cfd40ca17de90569a034da2a1b4745e53b82c8a7a91f61
+SHA512: 610ac90aa36c98e6b717b2cb15ac6e92aee481f31624c36399e1cf66375d0191dc62c9d0f2db4f35e7a4920ed20cee7a08fe2b65ac0f80ba2b282b2633247930
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Elementary symbol style
+Task: xubuntu-desktop, ubuntustudio-desktop
+Description-md5: d68f25478a11b022507c9a7afef86095
+Supported: 3y
+
+Package: libreoffice-style-hicontrast
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Depends: libreoffice-style-sifr
+Filename: pool/universe/libr/libreoffice/libreoffice-style-hicontrast_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 6168
+MD5sum: 2c172028647fb9de90c962e47bed55fa
+SHA1: 9f7bc3677d00f878aaac9de9c8ec5783b79562cb
+SHA256: b792cdf4b1561be77d3f3a3981d7bdf203fb85d69d34c5d3cec1a3abcb2c62c4
+SHA512: 842b87a77f27ad8a6c525a9738561afd92aef0317c28b62745e4b673503484fe91b550ee91afd96323ea7f2345f004ba12a72dd2129cb989b86312028a2e2b13
+Homepage: http://www.libreoffice.org
+Description: transitional package for Hicontrast symbol style
+Description-md5: c975e10f61063cef8dfc736499943c67
+
+Package: libreoffice-style-human
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Filename: pool/universe/libr/libreoffice/libreoffice-style-human_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 7464
+MD5sum: 11f72883b1f729032b98827eaef1fca3
+SHA1: fc2b902b9f310ceadb6c050176d62b804e07ac28
+SHA256: 797deb714180d659d0c12daf93024a9f7a84203c955364e0d7a7aa1c690888c7
+SHA512: 788ba5df5108cff3ca8b1420203c49d221c9865b4c173ece01a6e9a8b93ccf3af3608bd785cbbcd565d0b3e1005de313a7ae7db33ebe4734e7c8936bbbaf43e0
+Homepage: http://www.libreoffice.org
+Description: transitional package for Human symbol style
+Description-md5: ed94ab0fc9991b77a2b9fda0a3089abb
+
+Package: libreoffice-style-oxygen
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Depends: libreoffice-style-breeze
+Filename: pool/universe/libr/libreoffice/libreoffice-style-oxygen_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 6168
+MD5sum: 2dfce81df89f1578dd4b16623e68adee
+SHA1: 801864a622ac0dc2269b844af3563eece563dc0b
+SHA256: c24960ce4367856cc337ad81a753749c82ff0377a8f7eebc3dcd13bc4d8e5267
+SHA512: 4b3eb984a6b13315c94a666fb641561cd78a5d0355ca1daef0b36f431a7c1337527ae61db66715e0698d080a970a0ef7d1f53009d52dc9c8182d53b564727ddc
+Homepage: http://www.libreoffice.org
+Description: transitional package for Oxygen symbol style
+Task: kubuntu-desktop, kubuntu-full
+Description-md5: 0eea86d70908d194875d1d231cf95716
+Supported: 3y
+
+Package: libreoffice-style-sifr
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/editors
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6179
+Provides: libreoffice-style, libreoffice-style-hicontrast (= 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1)
+Depends: libreoffice-style-breeze
+Recommends: libreoffice-common
+Breaks: libreoffice-style-hicontrast (<< 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1)
+Replaces: libreoffice-style-hicontrast (<< 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1)
+Enhances: libreoffice-core
+Filename: pool/universe/libr/libreoffice/libreoffice-style-sifr_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 2435508
+MD5sum: 11314948b36cea488be055efd395e87e
+SHA1: 051bfcfb0a4247543bde99a3ca3f4172dccb93df
+SHA256: a72b2d7594c37858235a12c27e8b795b71938b7547acff864c32c1e2ee774282
+SHA512: 22a127ad22f53686150aefcf96298038d5e7fbc7e3d787f5e84eb592986dacd331902a7b16f4ed1d291e73c3948d8b1ba0d843057570540f9e8123000fdd2949
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Sifr symbol style
+Description-md5: 0fd5516a8dab8f6841c284edea8786d7
+
+Package: libreoffice-subsequentcheckbase
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: extra
+Section: universe/libs
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3172
+Depends: liblibreoffice-java, junit4 (>= 4.8.2-2)
+Filename: pool/universe/libr/libreoffice/libreoffice-subsequentcheckbase_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 2590924
+MD5sum: 3798b128df3a43a8aaf54adcf75bdeb0
+SHA1: 02dc1f19e2e7a45d0a03e2da78a6f16b09007693
+SHA256: a1a3c276c2947b9e5b516d4b0745e882dc6290579fe3e1424c38c78c498f40e7
+SHA512: 6fb3f31e2d8a64c518d894d09b3fa3fef0efb560818b3ada0295f488cb25c8dd551b10d5613ad1b12a12b997979012bce0965057d1a54239c60e2449ca4d2672
+Homepage: http://www.libreoffice.org
+Description: LibreOffice java test libraries
+Description-md5: cda482c5487d616e1ae7a228fce1d955
+
+Package: libreoffice-systray
+Architecture: all
+Version: 1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: extra
+Section: universe/misc
+Source: libreoffice
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 242
+Filename: pool/universe/libr/libreoffice/libreoffice-systray_7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 7480
+MD5sum: 62bbb84712abc5eeaca25121608b01a8
+SHA1: 8b3ad94b948a469b3fddfec96227a2262227a89f
+SHA256: 50e33149b75d1bbbd4cdb7a0a846b9ca1158720d4cd8fa0b04e14d0308d96509
+SHA512: c4cea2052682d080021525d0c7fc355372d04560090882de9a3a93a59c11b9938d2d821be5ccd2b731a2ddfcce67374ed9636cb12682a008799528505be8d34c
+Homepage: http://www.libreoffice.org
+Description: transitional package for removed LibreOffice "Quickstarter"
+Description-md5: 7af566a55c39207b389151276dad569a
+
+Package: libreoffice-wiki-publisher
+Architecture: all
+Version: 1.2.0+LibO7.3.7-0ubuntu0.22.04.1~bpo18.04.1
+Priority: optional
+Section: universe/misc
+Source: libreoffice (1:7.3.7-0ubuntu0.22.04.1~bpo18.04.1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 449
+Depends: liblibreoffice-java, libreoffice-core, libreoffice-java-common, default-jre (>= 2:1.8) | java8-runtime | jre
+Suggests: mediawiki
+Enhances: libreoffice-writer
+Filename: pool/universe/libr/libreoffice/libreoffice-wiki-publisher_1.2.0+LibO7.3.7-0ubuntu0.22.04.1~bpo18.04.1_all.deb
+Size: 7740
+MD5sum: be08d79c8545a6c19e5847856d3936a2
+SHA1: 99b6217a30e9487eb27409d83dba49d93067aeb1
+SHA256: 0d0fa069702930a8b6090b692e90476db412c8b3592203d3680bf0fcf6f29c47
+SHA512: 08968ba03d8a3c649a597c24ae50008b678882162e8ce6121da0ceb37f0b49ac1bc49354c73cc8333a5c7ea9e021572be299732ed9f487b634373009a91e7802
+Homepage: http://www.libreoffice.org
+Description: LibreOffice extension for working with MediaWiki articles
+Description-md5: a66aaa282ae4941588a4d314d1ebbf79
+
+Package: python-hvac
+Architecture: all
+Version: 0.5.0-0ubuntu1~ubuntu18.04.1
+Priority: optional
+Section: universe/python
+Source: hvac
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 102
+Depends: python-requests, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: pool/universe/h/hvac/python-hvac_0.5.0-0ubuntu1~ubuntu18.04.1_all.deb
+Size: 14468
+MD5sum: 1d6e2fb3fc52e407fccbc71523c72696
+SHA1: 8b04fcbad0385512772af686da3fa1b1866022f2
+SHA256: 8fa623991098ff5497e13ed2a94159be562935790f50faa3ff57558eee2d52cd
+SHA512: f18a41aba05ffcb74c99407136fb39588eac14dbccca76024e6f60208f0d37d9368c73af9ef9a5f6b8ec88e9a70b1f9ffff9e0f7c79ce00b91e81a1ae18dfa2f
+Homepage: https://github.com/ianunruh/hvac
+Description: Python 2 client library for Hashicorp Vault
+Description-md5: d73f21e1c413b6aeb6fe1c1849673d2d
+
+Package: python3-hvac
+Architecture: all
+Version: 0.5.0-0ubuntu1~ubuntu18.04.1
+Priority: optional
+Section: universe/python
+Source: hvac
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 103
+Depends: python3-requests, python3:any (>= 3.3.2-2~)
+Filename: pool/universe/h/hvac/python3-hvac_0.5.0-0ubuntu1~ubuntu18.04.1_all.deb
+Size: 14840
+MD5sum: 9479bd72ea0e40cd6430512cc2403c5e
+SHA1: d97e63844bfbf601a9c5283a51ff6e57ccdf4adf
+SHA256: 2ded28dd813c4b526d2204a3f32a533a003a7a5f92c4eb3bc53fa5d87b9420d2
+SHA512: 7348c8ea56c275ecac9ba98d8063393658cce176f80c72bb3898026eac90acc2d6b448f789875dd231de2c976e409cd6a1e41e6426c3a96e932c6abea85239e8
+Homepage: https://github.com/ianunruh/hvac
+Description: Python 3 client library for Hashicorp Vault
+Description-md5: 87f3d1dc985dc89bc5ba925dedb0e579
+
+Package: python3-ubuntutools
+Architecture: all
+Version: 0.187~bpo18.04.1
+Priority: optional
+Section: universe/devel
+Source: ubuntu-dev-tools
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ubuntu Developers <ubuntu-dev-tools@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 347
+Depends: python3-debian, python3-distro-info, python3-httplib2, python3-launchpadlib, python3-lazr.restfulclient, python3-requests, sensible-utils, python3:any (>= 3.6~)
+Filename: pool/universe/u/ubuntu-dev-tools/python3-ubuntutools_0.187~bpo18.04.1_all.deb
+Size: 58600
+MD5sum: 531e6ff723311512575f6b5891e87817
+SHA1: f305b142fde0d41b3b0d59a34feeddb1c26695d9
+SHA256: 77a322ae98d9478ad6df7b4e89e6f30084d945876ee65b80edb7df60f88acb87
+SHA512: 2fc02d27a7afa108195847b2d7a7be0fe39dd051cf07854c293c956a4aa35469e8950686a2fbef5e281f59fa7614948c1b56b6a6af4e2e554d277e021336e370
+Homepage: https://launchpad.net/ubuntu-dev-tools
+Description: useful APIs for Ubuntu developer tools — Python 3 library
+Description-md5: 7e13f84ccece24b357aee792b7904beb
+
+Package: simplestreams
+Architecture: all
+Version: 0.1.0-48-gb936edd4-0ubuntu1~bpo18.04.1
+Priority: extra
+Section: universe/python
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 37
+Depends: python3-simplestreams, python3-yaml, python3:any
+Filename: pool/universe/s/simplestreams/simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo18.04.1_all.deb
+Size: 6064
+MD5sum: 5757f96d72c33c8c575d04378870879e
+SHA1: 7b1beb1600c24bdee0453c7008fb3d11e0b2336d
+SHA256: ed46ec7172a685ea111afa7108c040819a0074c701dd90fb473d37ba481a74e7
+SHA512: e6b9404a1a9b43aeee4b8c3d88b02f41f8b62551fabae501cf62f339787b128b56c5ef95aedfb90a9eff8b5700f8a203ba69d4090a4e794e35254329d88ae40c
+Homepage: http://launchpad.net/simplestreams
+Description: Library and tools for using Simple Streams data
+Description-md5: de3939aceef20133cbe2ba7bbb1b7f43
+
+Package: ubuntu-dev-tools
+Architecture: all
+Version: 0.187~bpo18.04.1
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ubuntu Developers <ubuntu-dev-tools@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 412
+Depends: binutils, dctrl-tools, devscripts (>= 2.11.0~), diffstat, distro-info (>= 0.2~), dpkg-dev, dput, lsb-release, python3, python3-apt, python3-debian, python3-debianbts, python3-distro-info, python3-httplib2, python3-launchpadlib, python3-lazr.restfulclient, python3-ubuntutools (= 0.187~bpo18.04.1), sensible-utils, sudo, tzdata, perl:any
+Recommends: arch-test, bzr | brz, bzr-builddeb | brz-debian, ca-certificates, debian-archive-keyring, debian-keyring, debootstrap, genisoimage, lintian, patch, pbuilder | cowbuilder | sbuild, python3-dns, quilt, reportbug (>= 3.39ubuntu1), ubuntu-keyring | ubuntu-archive-keyring
+Suggests: qemu-user-static
+Filename: pool/universe/u/ubuntu-dev-tools/ubuntu-dev-tools_0.187~bpo18.04.1_all.deb
+Size: 88700
+MD5sum: 4a6639ca4ba3358e0f37845bb50d7cdc
+SHA1: 0b4dff05a8b072811c05760b6d0b704e142bbfdf
+SHA256: f9ed2bb41dd9460e5e7422b3aff3dd42e5ee990e81f79e9dfb0fdb05dbc2e4c9
+SHA512: ce81fc47b0c24c0a35082ed1391e8deee5c881abeec658eb6b5fc32bd568aeee41d120910d38260cadd98025d78a2b934701e914da44975e97a7b76aa641cb65
+Homepage: https://launchpad.net/ubuntu-dev-tools
+Description: useful tools for Ubuntu developers
+Description-md5: 0e2f0ec6c44167727c60b2fad97f61de
+
+Package: vaultlocker
+Architecture: all
+Version: 1.0.6-0ubuntu0.19.10.1~ubuntu18.04.1
+Priority: optional
+Section: universe/python
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69
+Depends: python3-hvac, python3-pbr (>= 2.0.0), python3-tenacity, python3:any (>= 3.3.2-2~)
+Filename: pool/universe/v/vaultlocker/vaultlocker_1.0.6-0ubuntu0.19.10.1~ubuntu18.04.1_all.deb
+Size: 10316
+MD5sum: 433f19ade7d25a0f9b92e2d51dd7c049
+SHA1: da7a330172485705fdf97af233ac9c1c464b7a52
+SHA256: 06df1dd8374ae4c60c5d62c7a73449cd777e71d005c5ec08a8ddc4a2c1ae5d37
+SHA512: e26ef04123615b86947ef20678b71f4c23c2376a5fea89ce1391b8511cc6a3628d789e894d8f82b6d58d9de131a20938c95e2cc86cc5fd82434b3e1439b10014
+Homepage: https://github.com/openstack-charmers/vaultlocker
+Description: Secure storage of dm-crypt keys in Hashicorp Vault
+Description-md5: e37e36f80e101bcee84aea29c108bcba
+
